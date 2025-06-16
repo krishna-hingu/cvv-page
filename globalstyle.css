@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;600;700&display=swap');
+
+:root {
+    /* Font */
+    --font-primary: 'Product Sans', sans-serif;
+
+    /* Colors */
+    --color-dark-grey: #262626;
+    --color-light-grey: #DDDDDD;
+    --color-blue: #24245A;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    color: var(--color-dark-grey);
+    letter-spacing: 1.4px;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1.7px;
+    color: var(--color-dark-grey);
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1.4px;
+    color: var(--color-dark-grey);
+}
+
+.heading-primary {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    color: var(--color-dark-grey);
+}
+
+.text-body {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1.4px;
+    color: var(--color-dark-grey);
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    color: var(--color-dark-grey); 
+}
+
+.table td {
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    color: var(--color-dark-grey);
+}
+
+.table-head {
+    background-color: #E9ECEF !important;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    line-height: 22.5px;
+    color: var(--color-dark-grey);
+    padding: 10px;
+}
+
