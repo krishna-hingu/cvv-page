@@ -23,6 +23,7 @@
 
 /* When hovered or opened */
 .accordion-button:hover,
+.accordion-button:active,
 .accordion-button:not(.collapsed) {
     background-color: #24245A !important;
     color: #ffffff !important;
